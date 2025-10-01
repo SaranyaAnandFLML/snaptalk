@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "515786039520",
+    "project_id": "aadharverification",
+    "storage_bucket": "aadharverification.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515786039520:android:8cb5bc3f52048f71e9b085",
+        "android_client_info": {
+          "package_name": "com.example.aadhaar_verify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5_lryk92mOft0ecHEQx8ziBBX-xpQEjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515786039520:android:0002488223216b1be9b085",
+        "android_client_info": {
+          "package_name": "com.example.design_test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5_lryk92mOft0ecHEQx8ziBBX-xpQEjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

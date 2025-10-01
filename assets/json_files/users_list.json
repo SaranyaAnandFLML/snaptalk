@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Alice",
+    "phone": "1234567890",
+    "email": "alice@example.com",
+    "userId": "u1",
+    "image": "https://randomuser.me/api/portraits/women/1.jpg",
+    "password": "secure123"
+  },
+  {
+    "name": "Bob",
+    "phone": "0987654321",
+    "email": "bob@example.com",
+    "userId": "u2",
+    "image": "https://randomuser.me/api/portraits/men/2.jpg",
+    "password": "mypassword"
+  },
+  {
+    "name": "Charlie",
+    "phone": "5551234567",
+    "email": "charlie@example.com",
+    "userId": "u3",
+    "image": "https://randomuser.me/api/portraits/men/3.jpg",
+    "password": "charliepass"
+  },
+  {
+    "name": "Diana",
+    "phone": "4449876543",
+    "email": "diana@example.com",
+    "userId": "u4",
+    "image": "https://randomuser.me/api/portraits/women/4.jpg",
+    "password": "dianapass"
+  },
+  {
+    "name": "Ethan",
+    "phone": "2223334444",
+    "email": "ethan@example.com",
+    "userId": "u5",
+    "image": "https://randomuser.me/api/portraits/men/5.jpg",
+    "password": "ethansecure"
+  }
+]
