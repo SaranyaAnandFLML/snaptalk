@@ -1,16 +1,16 @@
-//import java.util.Properties
-//import java.io.FileInputStream
+import java.util.Properties
+import java.io.FileInputStream
 plugins {
     id("com.android.application")
     id("com.google.gms.google-services")
     id("kotlin-android")
     id("dev.flutter.flutter-gradle-plugin")
 }
-//val keystoreProperties = Properties()
-//val keystorePropertiesFile = rootProject.file("key.properties")
-//if (keystorePropertiesFile.exists()) {
-//    keystoreProperties.load(FileInputStream(keystorePropertiesFile))
-//}
+val keystoreProperties = Properties()
+val keystorePropertiesFile = rootProject.file("key.properties")
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(FileInputStream(keystorePropertiesFile))
+}
 
 android {
     namespace = "com.snaptalk.app"
@@ -34,14 +34,14 @@ android {
         versionName = flutter.versionName
     }
 
-    //    signingConfigs {
-//        create("release") {
-//            keyAlias = keystoreProperties["keyAlias"] as String
-//            keyPassword = keystoreProperties["keyPassword"] as String
-//            storeFile = keystoreProperties["storeFile"]?.let { file(it) }
-//            storePassword = keystoreProperties["storePassword"] as String
-//        }
-//    }
+        signingConfigs {
+        create("release") {
+            keyAlias = keystoreProperties["keyAlias"] as String
+            keyPassword = keystoreProperties["keyPassword"] as String
+            storeFile = keystoreProperties["storeFile"]?.let { file(it) }
+            storePassword = keystoreProperties["storePassword"] as String
+        }
+    }
 
     buildTypes {
         release {
